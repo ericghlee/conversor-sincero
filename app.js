@@ -1,6 +1,6 @@
 const express = require('express')
 const hbs = require('hbs')
-const app = express()
+var app = express()
 
 hbs.registerPartials(__dirname + '/views/partials')
 app.set('view engine', 'hbs')
